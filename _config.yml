@@ -16,7 +16,7 @@
 title: The Brexicon
 email: giles@dringtech.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the Brexicon. All the best words you can definition.
+  Welcome to the Brexicon. The most brexellent words you can definition.
 baseurl: "/brexicon" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_userxname: gilesdring
