@@ -19,7 +19,7 @@ layout: default
   <div>See also:
     {% for xref in page.xref %}
     {% assign rel = site.brexicon | where:"slug", xref | first %}
-      <a href="{{ rel.url }}">{{ rel.title }}</a>{% if forloop.last != true %}, {% endif %}
+      <a href="{{ site.baseurl }}{{ rel.url }}">{{ rel.title }}</a>{% if forloop.last != true %}, {% endif %}
     {% endfor %}
   </div>
   {% endif %}
