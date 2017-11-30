@@ -31,6 +31,7 @@ plugins:
 collections:
   brexicon:
     output: true
+    permalink: /word/:name/
 
 permalink: pretty
 
