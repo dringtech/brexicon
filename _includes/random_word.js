@@ -4,6 +4,6 @@ var brexitWords = [
 ];
 var size = brexitWords.length;
 var i = Math.floor(Math.random()*size);
-document.write('<div class="brentry"><div class="term"><div class="word"><a href="' + brexitWords[i].url +'">' +
+document.write('<div class="brentry"><div class="term"><div class="word"><i class="fa fa-book" aria-hidden="true"></i> <a href="' + brexitWords[i].url +'">' +
   brexitWords[i].word + '</a></div> ('+ brexitWords[i].pos +
   ')</div><div class="definition">'+brexitWords[i].word +'</div></div>');

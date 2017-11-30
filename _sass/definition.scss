@@ -9,6 +9,9 @@
     .word {
       font-weight: bolder;
       display: inline;
+      i.fa {
+        display: inline-block;
+        font-size: larger;
     }
     &:after {
       content: " means ";
