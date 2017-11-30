@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  {% assign types = page.type | default: "noun"%}
+
+  <h1>{{ page.title }}</h1>
+  {% for type in types %}
+  <div class="brentry">
+    <div class="term"><div class="word">{{ page.title }}</div> ({{ type }})</div>
+    <div class="definition">{{ page.title}}</div>
+  </div>
+  {% endfor %}
+  {% if page.xref != null %}
+  <div>See also:
+    {% for xref in page.xref %}
+    {% assign rel = site.brexicon | where:"slug", xref | first %}
+      <a href="{{ rel.url }}">{{ rel.title }}</a>{% if forloop.last != true %}, {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>

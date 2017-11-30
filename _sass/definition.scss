@@ -1,0 +1,15 @@
+.brentry {
+  .term {
+    .word {
+      font-weight: bolder;
+      display: inline;
+    }
+    &:after {
+      content: ":";
+    }
+  }
+  .definition {
+    font-style: italic;
+    padding-left: 3em;
+  }
+}
