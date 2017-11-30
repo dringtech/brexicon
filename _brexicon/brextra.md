@@ -1,0 +1,6 @@
+---
+type:
+  - adv
+  - noun
+  - adj
+---
