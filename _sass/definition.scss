@@ -1,15 +1,16 @@
 .brentry {
   .term {
+    display: inline;
     .word {
       font-weight: bolder;
       display: inline;
     }
     &:after {
-      content: ":";
+      content: " means ";
     }
   }
   .definition {
+    display: inline;
     font-style: italic;
-    padding-left: 3em;
   }
 }
