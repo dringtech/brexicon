@@ -1,5 +1,5 @@
 ---
 type:
-  - adv
   - adj
+  - adv
 ---

@@ -1,7 +1,7 @@
 ---
 type:
-  - adv
-  - verb
   - adj
+  - adv
   - noun
+  - verb
 ---
