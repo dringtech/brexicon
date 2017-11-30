@@ -1,6 +1,6 @@
 ---
 type:
-  - noun
   - adj
+  - noun
   - verb
 ---
