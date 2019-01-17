@@ -1,15 +1,11 @@
 .brentry {
   margin: auto;
-  width: 80%;
-  background-color: #F7E7CE;
-  background-image: url(/assets/dust_scratches.png);
-  background-repeat: repeat;
-  padding: 10px;
   text-align: center;
+  font-size: 150%;
   .term {
     display: inline;
     .word {
-      font-weight: bolder;
+      font-weight: 700;
       display: inline;
       i.fa {
         display: inline-block;

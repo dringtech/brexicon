@@ -3,3 +3,27 @@
   color: $grey-color-dark;
   padding-top: 2em
 }
+
+body {
+  background-image: url("stressed-linen.png");
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.site-header, .site-footer {
+  border: 0;
+}
+
+.site-title {
+  font-family: $fontstack-roboto;
+  font-size: 400%;
+  padding-top: 20px;
+}
+
+.site-nav { display: none; }
+
+a:visited { color: darken($brand-color, 5%); }
+a:hover { color: lighten($brand-color, 10%); }
